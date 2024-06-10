@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#header-bg{
+    background-image: url('../healthy\ diet.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 10rem;
+    margin: auto;
+    font-size: 'Time New Roman' Times,serif;
+}
+
+#logo {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25pt;
+    font-weight: bolder;
+    color: white;
+}
+
+#nav-links {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+#ul-list {
+        display: flex;
+        list-style: none;
+        gap: 35px;
+        
+        
+    }
+    .nav-item{
+        text-decoration: none;
+        color: white;
+    }
+.btn{
+    background-color: tranparent;
+    padding: 4px 20px;
+    border-radius: 2rem;
+    border: white;
+}
+
+.btn a{
+    text-decoration: none;
+    
+}
+.header-text{
+    color: white;
+    font-size: 30px;
+    margin-top: 10rem;
+}
+.text-color{
+    color: white;
+}
+.about-section{
+    margin: 5rem 10rem;
+    display: flex;
+    gap: 2rem;
+}
+.images{
+    width: 50%;
+    display: flex;
+   gap: 2rem;
+
+}
+.about-text{
+    width: 50%;
+    font-size: 20px;
+
+}
+.images img{
+    width: 50%;
+
+}
+.about-text h4{
+    color:rgba(10, 10, 1, 0.719)
+}
+.about-text h2{
+    font-size: 30px;
+}
+.about-btn{
+    border: none;
+    background-color: orange;
+    padding: 10px 30px;
+    border: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.about-btn a{
+    color: white;
+    text-decoration: none;
+}
+.about-btn:hover{
+    background-color: green;
+}
+#nav-links a:hover{
+    color: red;
+}
+.serve-section{
+    margin: 3rem 10rem;
+}
+.serve-images{
+    display: flex;
+    justify-content: center ;
+    gap: 30px; ;
+}
+.image{
+    width: 30%;
+    height: 40%;
+}
+.image img{
+    width: 100%;
+}
+.serve-text{
+    padding-bottom: 2rem;
+    width: 50%;
+    font-size: 20px;
+    padding-top: 5rem;
+}
+.serve-text h5{
+    color: gold;
+
+}
+.serve-text h1{
+    font-size: 50px;
+}
+
+.image a{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+.serve.btn{
+    text-align: center;
+    margin: 2rem;
+}
+
+.prix-btn{
+
+font-family: Bebas Neue;
+font-weight: 400;
+font-size: 15px;
+color: #b43737;
+background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+padding: 16px 40px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 31px 31px 25px 39px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.prix-btn:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background: linear-gradient(90deg, rgb(230, 232, 235) 0%, #c500cc 100%);
+color: #0066cc;
+border: solid 2px #0066cc;
+}
+
